@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Geological Flood Prone</title>
+        <link rel="stylesheet" href="Design.css" />
+        <!--========================== FONT ==========================-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" />
+        <!--========================== ICON ==========================-->
+        <link rel="icon" href="images/1flo.png" type="image/x-icon" />
+        <!--Apps icon-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <script src="Javascript/javas.js"></script>
+        <section class="header">
+            <nav>
+                <a href="house_1.html"><img src="images/1flo.png" /></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="login.php">LOGIN</a></li>
+                        <li><a href="FrontSearch.php">SEARCH</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>Geological Flood Prone System</h1>
+                <p>
+                    The main task of geological flood prone system is to identify the flood prone areas and location
+                    <br />
+                    of possible areas that will be affected.
+                </p>
+                <a href="login.php" class="mazda-btn">Know More About Our Website</a>
+            </div>
+        </section>
+        <!--========================== COURSE ==========================-->
+        <section class="course">
+            <h1>Evacuation Sites</h1>
+            <p>lorem usfdghb fsiuedfyh s8udifhnb sdufyh8eud fs8edyufe dftgs</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, rerum accusantium. Ipsum
+                        expedita sequi, repellat explicabo laborum dolorem tempora nihil facere modi vitae aliquid
+                        voluptas pariatur libero est doloribus ipsa.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, rerum accusantium. Ipsum
+                        expedita sequi, repellat explicabo laborum dolorem tempora nihil facere modi vitae aliquid
+                        voluptas pariatur libero est doloribus ipsa.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--========================== CAMPUS ==========================-->
+        <section class="campus">
+            <h1>Area Status of Bulacan</h1>
+            <p>the Photos indicated the places that are prone in flood during typhoons</p>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/1st.jfif" />
+                    <div class="layer">
+                        <h3>Affected by Dam Releases</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/2nd.jfif" />
+                    <div class="layer">
+                        <h3>Flash Floods and Landslides</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/3rd.jfif" />
+                    <div class="layer">
+                        <h3>Coastal Floodings</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--========================== FACILITIES ==========================-->
+        <section class="facilities">
+            <h1>Different kineme of people</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci numquam commodi unde rerum nobis?</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/mazdacolor.jpg" />
+                    <h3>World Class Colors</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit atque aspernatur autem magnam
+                    </p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/mazdacolors.jpg" />
+                    <h3>Mazda 3 Colors</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit atque aspernatur autem magnam
+                    </p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/mazdacolorsss.jpg" />
+                    <h3>Mazda Miata Colors</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit atque aspernatur autem magnam
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--========================== FOOTER ==========================-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos at fuga delectus corrupti quae
+                nulla eum atque,
+                <br />
+                qui perferendis sunt veritatis inventore alias expedita odio in facere a dolorum incidunt.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </section>
+        <style>
+            .to-top {
+                background: transparent;
+                border: 3px solid #752b26;
+                position: fixed;
+                bottom: 16px;
+                width: 50px;
+                height: 50px;
+                right: 1%;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 32px;
+                text-decoration: none;
+                opacity: 0;
+                pointer-events: none;
+                transition: all 0.4s;
+            }
+            .to-top i {
+                color: #752b26;
+            }
+            .to-top.active {
+                bottom: 32px;
+                pointer-events: auto;
+                opacity: 1;
+            }
+            .footer {
+                position: relative;
+                width: 100%;
+                text-align: center;
+                bottom: 0;
+            }
+            .footer h4 {
+                margin-bottom: 20px;
+                margin-top: 20px;
+                font-weight: 600;
+            }
+            .footer .icons .fa {
+                color: #752b26;
+                margin: 0 13px;
+                cursor: pointer;
+                padding: 18px 0;
+            }
+        </style>
+        <!--========================== JavaScript For Toggle Menu==========================-->
+        <script>
+            const toTop = document.querySelector(".to-top");
+            window.addEventListener("scroll", () => {
+                if (window.pageYOffset > 100) {
+                    toTop.classList.add("active");
+                } else {
+                    toTop.classList.remove("active");
+                }
+            });
+        </script>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <a href="#" class="to-top">
+            <i class="fa fa-arrow-circle-up"></i>
+        </a>
+    </body>
+</html>

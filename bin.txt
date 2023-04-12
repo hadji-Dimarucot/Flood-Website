@@ -1,0 +1,17 @@
+INSERT INTO levelstatus(Baranggay, LevelStatus, Sign, Time,Date) VALUES 
+('Bunlo','78','etc',TIME_FORMAT(CURRENT_TIME(), '%h:%i %p '),DATE_FORMAT(CURRENT_DATE(), '%a, %b %d %Y '))
+
+
+<?php session_start()?>
+<?php
+$con = mysqli_connect('localhost','root','','floodprone');
+$Barang = $_SESSION['Baranggay'];
+  $sql = "select * from levelstatus where Baranggay='".$Barang."' order by begin desc limit 3";
+  $userin = mysqli_query($con,$sql);
+  $userinfo = mysqli_fetch_assoc($userin);
+  $_POST['Baranggay'] = $userinfo['Baranggay'];
+  $_POST['LevelStatus'] = $userinfo['LevelStatus'];
+  $_POST['Sign'] = $userinfo['Sign'];
+  $_POST['Time'] = $userinfo['Time'];
+  $_POST['Date'] = $userinfo['Date'];
+?>
