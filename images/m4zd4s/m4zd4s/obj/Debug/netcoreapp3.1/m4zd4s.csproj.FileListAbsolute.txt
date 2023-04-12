@@ -1,0 +1,13 @@
+C:\Users\Hadji\source\repos\m4zd4s\m4zd4s\bin\Debug\netcoreapp3.1\m4zd4s.exe
+C:\Users\Hadji\source\repos\m4zd4s\m4zd4s\bin\Debug\netcoreapp3.1\m4zd4s.deps.json
+C:\Users\Hadji\source\repos\m4zd4s\m4zd4s\bin\Debug\netcoreapp3.1\m4zd4s.runtimeconfig.json
+C:\Users\Hadji\source\repos\m4zd4s\m4zd4s\bin\Debug\netcoreapp3.1\m4zd4s.runtimeconfig.dev.json
+C:\Users\Hadji\source\repos\m4zd4s\m4zd4s\bin\Debug\netcoreapp3.1\m4zd4s.dll
+C:\Users\Hadji\source\repos\m4zd4s\m4zd4s\bin\Debug\netcoreapp3.1\m4zd4s.pdb
+C:\Users\Hadji\source\repos\m4zd4s\m4zd4s\obj\Debug\netcoreapp3.1\m4zd4s.csprojAssemblyReference.cache
+C:\Users\Hadji\source\repos\m4zd4s\m4zd4s\obj\Debug\netcoreapp3.1\m4zd4s.AssemblyInfoInputs.cache
+C:\Users\Hadji\source\repos\m4zd4s\m4zd4s\obj\Debug\netcoreapp3.1\m4zd4s.AssemblyInfo.cs
+C:\Users\Hadji\source\repos\m4zd4s\m4zd4s\obj\Debug\netcoreapp3.1\m4zd4s.csproj.CoreCompileInputs.cache
+C:\Users\Hadji\source\repos\m4zd4s\m4zd4s\obj\Debug\netcoreapp3.1\m4zd4s.dll
+C:\Users\Hadji\source\repos\m4zd4s\m4zd4s\obj\Debug\netcoreapp3.1\m4zd4s.pdb
+C:\Users\Hadji\source\repos\m4zd4s\m4zd4s\obj\Debug\netcoreapp3.1\m4zd4s.genruntimeconfig.cache
